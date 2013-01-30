@@ -3,30 +3,7 @@
  * 
  * Playable at: www.thenickhuber.com/epicbreakout.html
  * 
- * TO DO (ordered)
- * 
- * The Brick King
- * indestructible bricks
- * Shield Upgrade
- * extra life
- * minion bricks
- * nuke
- * soundtrack, sound effects
- *
- *
- * indestructible bricks
-	if(level == 4){
-		drawMessage("ALERT_MESSAGE", "GRAY BRICKS are indestructible",
-					ALERT_MESSAGE_FONT);
-		for(h = 0; h < NUM_BRICKS_PER_ROW; h+=2){
-			bricks[(NUM_ROWS - 1)* NUM_BRICKS_PER_ROW + h].type = "indestructible";	
-			bricks[(NUM_ROWS - 1)* NUM_BRICKS_PER_ROW + h].setColor(Color.gray);
-			add(bricks[(NUM_ROWS - 1)* NUM_BRICKS_PER_ROW + h]);	
-		}
-	}
- *
- *
- */
+/
 
 /* World graphical constants */
 var BRICK_TOP_OFFSET = 40;
